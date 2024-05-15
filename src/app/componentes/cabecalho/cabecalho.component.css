@@ -1,0 +1,46 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid #0D6EFD;
+    padding-bottom: 40px;
+}
+
+.cabecalho .titulo {
+    color:  #0D6EFD;
+    text-align: center;
+    font-family: 'Zen Dots';
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+}
+
+.cabecalho .titulo span {
+    color: #FD9843;
+}
+
+.cabecalho a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  color: #0D6EFD;
+  cursor: pointer;
+}
+
+.cabecalho .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-self: flex-start;
+}
+
+.cabecalho .seta {
+  margin: 0 8px;
+}

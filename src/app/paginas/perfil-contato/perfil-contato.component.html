@@ -1,0 +1,44 @@
+<app-container>
+  <app-cabecalho
+    [telaInicial]="true"
+    [bannerSrc]="'assets/banner.png'"
+    [titulo]="'Organize, conecte, simplifique!'">
+  </app-cabecalho>
+  <section class="perfil">
+    <div class="imagem-perfil">
+      <img [src]="contato.avatar" alt="Avatar">
+      <h2><strong>{{ contato.nome }}</strong></h2>
+    </div>
+    <app-separador></app-separador>
+    <ul>
+      <li>
+        <i class="material-icons">call</i>
+        <strong>Telefone</strong>
+      </li>
+      <li>{{ contato.telefone }}</li>
+      <li>
+        <i class="material-icons">mail</i>
+        <strong>Email</strong>
+      </li>
+      <li>{{ contato.email }}</li>
+      <li>
+        <i class="material-icons">event_available</i>
+        <strong>Data de nascimento</strong>
+      </li>
+      <li>{{ contato.aniversario }}</li>
+      <li>
+        <i class="material-icons">language</i>
+        <strong>Redes sociais</strong>
+      </li>
+      <li>{{ contato.redes }}</li>
+    </ul>
+    <div class="botoes">
+      <button class="botao-excluir" (click)="excluir()">
+        Excluir contato
+      </button>
+      <button class="botao-editar" (click)="editar()">
+        Editar
+      </button>
+    </div>
+  </section>
+</app-container>
