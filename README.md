@@ -1,5 +1,3 @@
-![Descricao da sua imagem](./thumbnail.png)
-
 # Indexa
 
 Uma aplicação para manipulação de contatos de uma agenda.
@@ -19,10 +17,6 @@ As técnicas e tecnologias utilizadas pra isso são:
 - `Services e injeção de dependências`: implementação e utilização de services para promover a modularidade e reusabilidade do código, além de explorar a injeção de dependências
 - `Configuração de rotas`: configuração eficiente do arquivo de rotas para navegação fluida e estratégias de roteamento
 - `RouterLink e Navigate`: exploração do routerLink para facilitar redirecionamentos no template, bem como uso do serviço router e método navigateByUrl para navegação programática.
-
-## 📁 Link do Figma
-
-Você pode [acessar o figma do projeto aqui](https://www.figma.com/file/uXjoavDEvDjyE8LsXgliGx/Indexa-%7C-Angular---Primeiros-Passos?type=design&node-id=241-4472&mode=design&t=wRERwIPB7NC0Xw7z-0).
 
 ## 🛠️ Abrir e rodar o projeto
 
